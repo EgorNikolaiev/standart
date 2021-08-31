@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="icon" href="imgages/favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container _container">
+		<a href="/" class="header__logo">
+			<picture>
+				<source srcset='images/logo.webp' type='image/webp'>
+				<img src='images/logo.png' alt='ancient treasures'>
+			</picture>
+		</a>
+
+		<div class="header__menu menu">
+			<button class="menu__button" type="button" aria-expanded="false" aria-controls="menu__list">
+				<span></span>
+			</button>
+			<nav class="menu__body">
+				<ul class="menu__list" id="menu__list">
+					<li><a data-goto=".services" href="#" class="menu__link">Наши услуги</a></li>
+					<li><a data-goto=".examples" href="#" class="menu__link">Примеры потолков</a></li>
+					<li><a data-goto=".stages" href="#" class="menu__link">Этапы работы</a></li>
+					<li><a data-goto=".reviews" href="#" class="menu__link">Отзывы</a></li>
+					<li><a data-goto=".questions" href="#" class="menu__link">Вопросы</a></li>
+					<li><a data-goto=".stock" href="#" class="menu__link">Акции</a></li>
+
+					<li><a href="#popup" class="popup-link menu__submit _btn _btn_outline">Оставить заявку</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<a href="#popup" class="popup-link header__button _btn _btn_outline">Оставить заявку</a>
+	</div>
+</header>
+
+		<main class="main">
+
+			<section class="first-screen">
+				<div class="first-screen__content">
+					<div class="first-screen__container _container">
+						<div class="first-screen__body">
+							<div class="first-screen__decor">
+								<svg width="80" height="9" viewBox="0 0 80 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line x1="1" y1="8" x2="79" y2="8" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+									<line x1="1" y1="1" x2="49" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h1 class="first-screen__title h1">Натяжные потолки в Минске и Минском районе</h1>
+							<div class="first-screen__text _text">Оставьте заявку на бесплатный замер от специалиста. Все сотрудники нашего офиса опытные замерщики и вы получите подробную консультацию уже по телефону!</div>
+							<form action="#" class="first-screen__form form">
+								<div class="form__lable">Номер телефона</div>
+								<input data-telephone class="form__input" placeholder="+7 (395) 123-45-67" type="text" name="telephone">
+								<button class="form__button _btn" type="submit">Оставить заявку</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="first-screen__image">
+					<picture>
+						<source srcset='images/main-screen.webp' type='image/webp'>
+						<img src='images/main-screen.jpg' alt='#'>
+					</picture>
+				</div>
+			</section>
+
+			<section class="services">
+				<div class="services__decor _decor_vertical">
+					<svg width="9" height="60" viewBox="0 0 9 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="8" y1="59" x2="8" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+						<line x1="1" y1="59" x2="0.999998" y2="23.5" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</div>
+
+				<div class="services__container _container">
+
+					<h2 class="services__title h1">Наши услуги</h2>
+
+					<div class="services__grid">
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/01.webp' type='image/webp'>
+									<img src='images/services/' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Одноуровневые потолки</a>
+							<div class="item-services__text">От 15 р за м²</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/02.webp' type='image/webp'>
+									<img src='images/services/02.jpg' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Двухуровневые потолки</a>
+							<div class="item-services__text">От 20 р за м²</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/03.webp' type='image/webp'>
+									<img src='images/services/03.jpg' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Тканевые потолки</a>
+							<div class="item-services__text">От 23 р за м²</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/04.webp' type='image/webp'>
+									<img src='images/services/04.jpg' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Парящие линии</a>
+							<div class="item-services__text">От 25 р за м²</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/05.webp' type='image/webp'>
+									<img src='images/services/05.jpg' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Фотопечать</a>
+							<div class="item-services__text">От 27 р за м²</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/services/06.webp' type='image/webp'>
+									<img src='images/services/06.jpg' alt='#'>
+								</picture>
+								<div class="item-services__desctription">Красочные цветы, звёздное небо, пархающие бабочки, современный мегаполис, а также любые ваши фантазии мы можем воплотить в жизнь на вашем потолке. Индивидуальный образ и море впечатлений.</div>
+
+							</div>
+							<a href="#popup" class=" popup-link item-services__title">Ремонт полотен</a>
+							<div class="item-services__text">От 40 р за м²</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="choose">
+				<div class="choose__container">
+					<div class="choose__row">
+						<div class="choose__image">
+							<picture>
+								<source srcset='images/how-select.webp' type='image/webp'>
+								<img src='images/how-select.jpg' alt='#'>
+							</picture>
+						</div>
+
+						<div class="choose__content">
+							<div class="choose__decor _decor_horizontal">
+								<svg width="80" height="9" viewBox="0 0 80 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line x1="1" y1="8" x2="79" y2="8" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+									<line x1="1" y1="1" x2="49" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h2 class="choose__title h1">Как выбрать натяжные потолки?</h2>
+							<div class="choose__text _text">
+								<p>При выборе изделий из пленки ПВХ или на тканевой основе, необходимо руководствоваться техническими условиями помещения и личными предпочтениями.</p>
+								<p>Для кухни и ванной лучше выбирать недорогие пленочные материалы, которые не впитывают влагу и выносят большие перепады температур. Для детской и спальни лучше купить натяжные потолки на тканевой основе, так как они являются дышащими и более экологически чистыми и безопасными.</p>
+								<p>Глянцевые материалы выбираются под современный интерьерный дизайн. Они отражают свет и предметы, находящиеся в комнате, зрительно расширяя ее пространство и объем. Матовые потолки имеют различную фактуру полотен, идеально подходят под классический стиль интерьера, создают уютную домашнюю атмосферу и добавляют помещению презентабельности и шика.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="examples">
+				<div class="examples__decor _decor_vertical">
+					<svg width="9" height="60" viewBox="0 0 9 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="8" y1="59" x2="8" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+						<line x1="1" y1="59" x2="0.999998" y2="23.5" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</div>
+				<div class="examples__container _container">
+					<h2 class="examples__title h1">Примеры наших работ</h2>
+					<div class="examples__text _text">Натяжные потолки имеют огромное количество преимуществ, которые позволят избежать необходимости частого ремонта базового потолка и скроют все его недостатки.</div>
+					<div class="examples__slider swiper-container">
+						<div id="animated-thumbnials" class="swiper-wrapper">
+							<div data-src="images/works/07.jpg" class="examples__slider-slide swiper-slide">
+								<picture>
+									<source srcset='images/works/07.webp' type='image/webp'>
+									<img data-group="gallery" class="examples__slider-image" src='images/works/07.jpg' alt='#'>
+								</picture>
+							</div>
+							<div data-src="images/works/08.jpg" class="examples__slider-slide swiper-slide">
+								<picture>
+									<source srcset='images/works/08.webp' type='image/webp'>
+									<img data-group="gallery" class="examples__slider-image" src='images/works/08.jpg' alt='#'>
+								</picture>
+							</div>
+							<div data-src="images/works/09.jpg" class="examples__slider-slide swiper-slide">
+								<picture>
+									<source srcset='images/works/09.webp' type='image/webp'>
+									<img class="examples__slider-image" src='images/works/09.jpg' alt='#'>
+								</picture>
+							</div>
+						</div>
+
+					</div>
+					<div class="examples__button-prev swiper-button-prev">
+						<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M21 7C21.5523 7 22 7.44772 22 8C22 8.55228 21.5523 9 21 9V7ZM0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z" fill="white" />
+						</svg>
+					</div>
+					<div class="examples__button-next swiper-button-next">
+						<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM1 9H21V7H1V9Z" fill="white" />
+						</svg>
+					</div>
+				</div>
+			</section>
+
+			<section class="stages">
+				<div class="stages__container _container">
+					<div class="stages__row">
+						<div class="stages__col">
+							<div class="stages__items">
+
+								<div class="stages__item item-stages">
+									<img class="item-stages__icon" src='images/icons/telephone.svg' alt='telephone'>
+									<div class="item-stages__title">Оформление заявки</div>
+									<div class="item-stages__text _text">Позвоните или оформите заявку на сайте и мы незамедлительно свяжемся с вами</div>
+								</div>
+
+								<div class="stages__item item-stages">
+									<img class="item-stages__icon" src='images/icons/roulette.svg' alt='telephone'>
+									<div class="item-stages__title">Выезд замерщика</div>
+									<div class="item-stages__text _text">Опытный замерщик бесплатно замерит ваш потолок и рассчитает стоимость</div>
+								</div>
+
+								<div class="stages__item item-stages">
+									<img class="item-stages__icon" src='images/icons/drill.svg' alt='telephone'>
+									<div class="item-stages__title">Монтаж</div>
+									<div class="item-stages__text _text">Установка натяжного потолка осуществляется в течение нескольких часов</div>
+								</div>
+
+								<div class="stages__item item-stages">
+									<img class="item-stages__icon" src='images/icons/purse.svg' alt='telephone'>
+									<div class="item-stages__title">Оплата</div>
+									<div class="item-stages__text _text">Вы оплачиваете работу по факту ее выполнения и наслаждаетесь новым натяжным потолком!</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="stages__col">
+							<div class="stages__decor _decor_horizontal">
+								<svg width="80" height="9" viewBox="0 0 80 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line x1="1" y1="8" x2="79" y2="8" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+									<line x1="1" y1="1" x2="49" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h2 class="stages__title h1">Многолетний опыт в установке натяжных потолков</h2>
+							<div class="stages__text _text">
+								<p>Сегодня все большее количество людей отдают предпочтение современным материалам для отделки потолков, одним из которых являются натяжные потолки. Цены на их установку не всегда могут быть доступными, поэтому стоит внимательно выбирать компанию, стоимость услуг которой не сильно отразится на вашем бюджете.</p>
+								<p>Наша компания специализируется на установке натяжных потолков различной сложности и имеет большое количество благодарных клиентов. Мы выполняем качественный и аккуратный монтаж, а также предлагаем доступные каждому цены на натяжные потолки в Минске. Сотрудничество с нами позволяет не только сэкономить время, но и избежать дополнительных расходов, которые могут возникнуть в случае непрофессиональной установки натяжных потолков.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="reviews">
+				<div class="reviews__container _container">
+					<div class="reviews__row">
+						<div class="reviews__content">
+							<div class="reviews__decor _decor_horizontal">
+								<svg width="80" height="9" viewBox="0 0 80 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<line x1="1" y1="8" x2="79" y2="8" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+									<line x1="1" y1="1" x2="49" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+								</svg>
+							</div>
+							<h2 class="reviews__title h1">Отзывы клиентов</h2>
+							<div class="reviews__text">Наша компания предлагает доступные цены на услуги профессионалов, которыми остаются довольны все наши клиенты!</div>
+							<div class="reviews__buttons">
+								<div class="reviews__buttons-prev swiper-button-prev">
+									<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M21 7C21.5523 7 22 7.44772 22 8C22 8.55228 21.5523 9 21 9V7ZM0.292892 8.70711C-0.0976315 8.31658 -0.0976315 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM21 9H1V7H21V9Z" fill="white" />
+									</svg>
+								</div>
+								<div class="reviews__buttons-next swiper-button-next">
+									<svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM21.7071 8.70711C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928932C14.9526 0.538408 14.3195 0.538408 13.9289 0.928932C13.5384 1.31946 13.5384 1.95262 13.9289 2.34315L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.70711ZM1 9H21V7H1V9Z" fill="white" />
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						<div class="reviews__slider slider-reviews swiper-container">
+							<div class="swiper-wrapper">
+
+								<div class="slider-reviews__slide swiper-slide">
+									<div class="slider-reviews__title">Уже 2 года никаких провисаний</div>
+									<div class="slider-reviews__text _text">По своим философским взглядам Дезами был материалистом и атеистом, последователем Гельвеция, однако суждение недетерминировано раскладывает на элементы гетерогенный дедуктивный метод. Интеграл от переменной величины, на первый взгляд, относительно представляет собой смысл жизни.</div>
+									<div class="slider-reviews__autor">Владимир</div>
+								</div>
+
+								<div class="slider-reviews__slide swiper-slide">
+									<div class="slider-reviews__title">Уже 2 года никаких провисаний</div>
+									<div class="slider-reviews__text _text">По своим философским взглядам Дезами был материалистом и атеистом, последователем Гельвеция, однако суждение недетерминировано раскладывает на элементы гетерогенный дедуктивный метод. Интеграл от переменной величины, на первый взгляд, относительно представляет собой смысл жизни.</div>
+									<div class="slider-reviews__autor">Владимир</div>
+								</div>
+
+								<div class="slider-reviews__slide swiper-slide">
+									<div class="slider-reviews__title">Уже 2 года никаких провисаний</div>
+									<div class="slider-reviews__text _text">По своим философским взглядам Дезами был материалистом и атеистом, последователем Гельвеция, однако суждение недетерминировано раскладывает на элементы гетерогенный дедуктивный метод. Интеграл от переменной величины, на первый взгляд, относительно представляет собой смысл жизни.</div>
+									<div class="slider-reviews__autor">Владимир</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="questions">
+				<div class="questions__decor _decor_vertical">
+					<svg width="9" height="60" viewBox="0 0 9 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="8" y1="59" x2="8" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+						<line x1="1" y1="59" x2="0.999998" y2="23.5" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</div>
+				<div class="questions__container _container">
+					<h2 class="questions__title h1">Частно задаваемые вопросы</h2>
+					<div class="questions__grid">
+						<div data-spoilers data-one-spoiler class="questions__spoilers spoilers-questions">
+							<div class="spoilers-questions__item">
+								<button tabindex="-1" type="button" data-spoiler class="spoilers-questions__title _active"><span></span> На сколько опустится потолок после его установки?</button>
+								<div class="spoilers-questions__text _text">
+									<p>При установке натяжного потолка следует учитывать абсолютно все: площадь и высота, наличие люстр и светильников, их модель и характеристики, а также наличие и особенности коммуникаций. Эти факторы играют решающую роль при установке уровня натяжного потолка по отношению к черновому потолку.</p>
+									<p>Как правило потолочное полотно опускается ровно на величину габаритов освещения, если нет других конструктивных особенностей объекта. </p>
+									<p>Самым маленьким расстоянием опускания натяжного потолочного покрытия является 4 см. Точечные светильники опускают натяжное покрытие на 6-10 см.</p>
+								</div>
+							</div>
+							<div class="spoilers-questions__item">
+								<button tabindex="-1" type="button" data-spoiler class="spoilers-questions__title "><span></span> На сколько опустится потолок после его установки?</button>
+								<div class="spoilers-questions__text _text">
+									<p>При установке натяжного потолка следует учитывать абсолютно все: площадь и высота, наличие люстр и светильников, их модель и характеристики, а также наличие и особенности коммуникаций. Эти факторы играют решающую роль при установке уровня натяжного потолка по отношению к черновому потолку.</p>
+									<p>Как правило потолочное полотно опускается ровно на величину габаритов освещения, если нет других конструктивных особенностей объекта. </p>
+									<p>Самым маленьким расстоянием опускания натяжного потолочного покрытия является 4 см. Точечные светильники опускают натяжное покрытие на 6-10 см.</p>
+								</div>
+							</div>
+							<div class="spoilers-questions__item">
+								<button tabindex="-1" type="button" data-spoiler class="spoilers-questions__title "><span></span> На сколько опустится потолок после его установки?</button>
+								<div class="spoilers-questions__text _text">
+									<p>При установке натяжного потолка следует учитывать абсолютно все: площадь и высота, наличие люстр и светильников, их модель и характеристики, а также наличие и особенности коммуникаций. Эти факторы играют решающую роль при установке уровня натяжного потолка по отношению к черновому потолку.</p>
+									<p>Как правило потолочное полотно опускается ровно на величину габаритов освещения, если нет других конструктивных особенностей объекта. </p>
+									<p>Самым маленьким расстоянием опускания натяжного потолочного покрытия является 4 см. Точечные светильники опускают натяжное покрытие на 6-10 см.</p>
+								</div>
+							</div>
+							<div class="spoilers-questions__item">
+								<button tabindex="-1" type="button" data-spoiler class="spoilers-questions__title "><span></span> На сколько опустится потолок после его установки?</button>
+								<div class="spoilers-questions__text _text">
+									<p>При установке натяжного потолка следует учитывать абсолютно все: площадь и высота, наличие люстр и светильников, их модель и характеристики, а также наличие и особенности коммуникаций. Эти факторы играют решающую роль при установке уровня натяжного потолка по отношению к черновому потолку.</p>
+									<p>Как правило потолочное полотно опускается ровно на величину габаритов освещения, если нет других конструктивных особенностей объекта. </p>
+									<p>Самым маленьким расстоянием опускания натяжного потолочного покрытия является 4 см. Точечные светильники опускают натяжное покрытие на 6-10 см.</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="questions__content">
+							<div class="questions__text _text">Не уверены какой потолок выбрать или остались дополнительные вопросы? Вы всегда можете позвонить и получить консультацию нашего специалиста, или оставить заявку.</div>
+							<a href="#popup" class="popup-link questions__button _btn">Оставить заявку</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="stock">
+				<div class="services__decor _decor_vertical">
+					<svg width="9" height="60" viewBox="0 0 9 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="8" y1="59" x2="8" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+						<line x1="1" y1="59" x2="0.999998" y2="23.5" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</div>
+
+				<div class="services__container _container">
+					<h2 class="services__title h1">Акции</h2>
+
+					<div class="services__grid">
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/stock/01.webp' type='image/webp'>
+									<img src='images/stock/' alt='#'>
+								</picture>
+							</div>
+							<div class="item-services__text">При заказе потолка от 17 м² <strong>4 светильника или карниз</strong> в подарок</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/stock/02.webp' type='image/webp'>
+									<img src='images/stock/02.jpg' alt='#'>
+								</picture>
+							</div>
+							<div class="item-services__text">При заказе скрытого карниза — сам <strong>карниз в подарок!</strong></div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__image">
+								<picture>
+									<source srcset='images/stock/03.webp' type='image/webp'>
+									<img src='images/stock/03.jpg' alt='#'>
+							</div>
+							<div class="item-services__text">При заказе от 3 жилых помещений — <strong>потолок в санузел</strong> бесплатно</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="order">
+				<div class="order__container">
+					<div class="order__image">
+						<picture>
+							<source srcset='images/man.webp' type='image/webp'>
+							<img src='images/man.png' alt=''>
+						</picture>
+					</div>
+					<div class="order__content">
+						<div class="order__decor _decor_horizontal">
+							<svg width="80" height="9" viewBox="0 0 80 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<line x1="1" y1="8" x2="79" y2="8" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+								<line x1="1" y1="1" x2="49" y2="1" stroke="#F5540B" stroke-width="2" stroke-linecap="round" />
+							</svg>
+						</div>					
+						
+						<h2 class="order__title h1">Заказать бесплатный замер</h2>
+						<div class="order__text _text">
+							<p>Все сотрудники нашего офиса опытные замерщики. Когда человек понимает весь процесс снизу-доверху с ним намного комфорнее и информативнее общаться. Получите подробную консультацию по телефону, оставив заявку!</p>
+							<p>Вызов замерщика осуществляется бесплатно, даже если вы впоследствии не воспользуетесь нашими услугами.</p>
+						</div>
+						<form action="#" class="order__form form">
+							<div class="form__lable">Номер телефона</div>
+							<input data-telephone class="form__input" placeholder="+7 (395) 123-45-67" type="text" name="telephone">
+							<button class="form__button _btn" type="submit">Оставить заявку</button>
+						</form>
+					</div>
+
+				</div>
+			</section>
+
+		</main>
+
+		<div id="popup" class="popup">
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="" class="popup__close close-popup">×</a>
+					<div class="popup__title h1">Закажи обратный звонок</div>
+					<div class="popup__text _text">Наш специалист перезвонит и ответит на все вопросы</div>
+					<form action="#" class="popup__form">
+						<input class="popup__form-input" placeholder="Ваше имя" type="text" name="name">
+						<input data-telephone class="popup__form-input" placeholder="+7 (395) 123-45-67" type="text" name="telephone">
+						<button class="popup__form-button _btn" type="submit">Оставить заявку</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__col">
+			<div class="footer__logo">
+				<picture>
+					<source srcset='images/logo.webp' type='image/webp'>
+					<img src='images/logo.png' alt=''>
+				</picture>
+			</div>
+			<div class="footer__text_description _text">Наша компания — это качественный и аккуратный монтаж, а также доступные каждому цены на натяжные потолки в Минске</div>
+		</div>
+
+		<div class="footer__col">
+			<a class="footer__contact" href="tel:+375445807880">+375 (44) 580 78 80 </a>
+			<div class="footer__text _text"><strong>Пн-Пт:</strong> с 9:00 до 19:00</div>
+		</div>
+
+		<div class="footer__col">
+			<a class="footer__contact" href="mailto:standartpotolok@rambler.ru">standartpotolok@rambler.ru</a>
+			<div class="footer__text _text">Мы всегда на связи!</div>
+		</div>
+
+		<div class="footer__col">
+			<div class="footer__text_nav _text">Навигация</div>
+			<nav>
+				<ul class="footer__list">
+					<li><a data-goto=".services" href="#" class="footer__link menu__link">Наши услуги</a></li>
+					<li><a data-goto=".examples" href="#" class="footer__link menu__link">Примеры потолков</a></li>
+					<li><a data-goto=".stages" href="#" class="footer__link menu__link">Этапы работы</a></li>
+					<li><a data-goto=".reviews" href="#" class="footer__link menu__link">Отзывы</a></li>
+					<li><a data-goto=".questions" href="#" class="footer__link menu__link">Вопросы</a></li>
+					<li><a data-goto=".stock" href="#" class="footer__link menu__link">Акции</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="footer__copiright">
+		<div class="_container">© 2021 Натяжные потолки в Минске и Минском районе</div>
+	</div>
+</footer>
+	</div>
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
