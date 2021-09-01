@@ -1599,12 +1599,13 @@ body._lock {
   font-weight: bold;
   font-size: 18px;
   color: #1d1663;
-  margin-bottom: 5px;
+  margin: 0 20px 5px 20px;
 }
 
 .item-services__text {
   font-size: 17px;
   color: #3e3b5c;
+  margin: 0 20px 20px 20px;
 }
 
 .choose {
@@ -1670,6 +1671,7 @@ body._lock {
 }
 
 .examples__slider-slide {
+  cursor: pointer;
   position: relative;
   min-height: 420px;
 }
@@ -1805,13 +1807,26 @@ body._lock {
   font-size: 18px;
   line-height: 120%;
   color: #fff;
-  margin-bottom: 20px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.slider-reviews__title:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 39px;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  background: url("../images/icons/quote.svg") center/cover no-repeat;
 }
 
 .slider-reviews__text {
   color: #fff;
   font-size: 16px;
   line-height: 145%;
+  margin-top: 25px;
   margin-bottom: 20px;
 }
 
@@ -1838,6 +1853,10 @@ body._lock {
   margin-bottom: 30px;
 }
 
+.spoilers-questions__item {
+  margin-bottom: 10px;
+}
+
 .spoilers-questions__title {
   display: flex;
   align-items: center;
@@ -1847,8 +1866,12 @@ body._lock {
   background-color: #f0f0f5;
   font-family: "Coolvetica";
   font-size: 28px;
-  color: #1d1663;
   transition: 0.3s;
+  color: #1d1663;
+}
+
+.spoilers-questions__title:hover {
+  color: #f5540b;
 }
 
 .spoilers-questions__title._active span {
@@ -1949,7 +1972,7 @@ body._lock {
 
 .footer {
   background-color: #fff;
-  margin: 50px 0 20px 0;
+  padding: 50px 0 20px 0;
 }
 
 .footer__container {
@@ -2086,6 +2109,12 @@ body._lock {
   text-align: center;
   margin-bottom: 25px;
   color: #000;
+}
+
+.popup__text_sub {
+  margin-top: 7px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .popup__form-input {
@@ -2615,6 +2644,7 @@ body._lock {
     display: flex;
     justify-content: center;
     margin-bottom: 53px;
+    margin-top: 35px;
   }
 
   ._decor_horizontal svg {
@@ -2683,7 +2713,7 @@ body._lock {
   }
 
   .stages {
-    padding: 70px 0 30px 0;
+    padding: 35px 0 30px 0;
   }
 
   .stages__title {
@@ -2691,7 +2721,7 @@ body._lock {
   }
 
   .reviews {
-    padding-bottom: 95px;
+    padding-bottom: 70px;
   }
 
   .reviews__text {
@@ -2719,11 +2749,11 @@ body._lock {
   }
 
   .stock {
-    padding: 70px 0 70px 0;
+    padding: 10px 0 70px 0;
   }
 
   .order__content {
-    padding: 70px 20px 50px 20px;
+    padding: 45px 20px 50px 20px;
   }
 
   .order__title {
