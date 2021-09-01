@@ -13008,6 +13008,7 @@ var swiper1 = new Swiper('.examples__slider', {
   loop: false,
   slidesPerView: 1,
   //'auto',
+  spaceBetween: 20,
   slidesPerGroup: 1,
   loopFillGroupWithBlank: true,
   breakpoints: {
@@ -13030,9 +13031,6 @@ var swiper2 = new Swiper('.reviews__slider', {
   spaceBetween: 20,
   slidesPerView: 1,
   //'auto',
-  observer: true,
-  observeParants: true,
-  observwSlideChildren: true,
   breakpoints: {
     768: {
       slidesPerView: 2

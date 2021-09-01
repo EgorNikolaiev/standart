@@ -1375,6 +1375,7 @@ body._lock {
 
 ._btn:hover {
   background: #f6692a;
+  text-decoration: none;
 }
 
 ._btn_outline {
@@ -1389,6 +1390,7 @@ body._lock {
 }
 
 ._btn_outline:hover {
+  text-decoration: none;
   color: #fff;
   background: #f5540b;
 }
@@ -1604,6 +1606,7 @@ body._lock {
 
 .item-services__text {
   font-size: 17px;
+  line-height: 145%;
   color: #3e3b5c;
   margin: 0 20px 20px 20px;
 }
@@ -1776,7 +1779,8 @@ body._lock {
 }
 
 .reviews__content {
-  padding: 45px 0 25px 0;
+  flex: 1 1 33.333%;
+  padding: 45px 15px 25px 15px;
 }
 
 .reviews__text {
@@ -1794,6 +1798,12 @@ body._lock {
 
 .reviews__buttons-next {
   flex: 0 0 50px;
+}
+
+.reviews__slider {
+  min-width: 0;
+  flex: 1 1 66.667%;
+  padding: 0 15px;
 }
 
 .slider-reviews__slide {
@@ -2219,10 +2229,8 @@ body._lock {
 
 @media (min-width: 992px) {
   .reviews__row {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+    display: flex;
+    margin: 0 -15px;
   }
 }
 
@@ -2697,7 +2705,7 @@ body._lock {
   }
 
   .examples {
-    padding: 0px 10px 50px 10px;
+    padding: 20px 10px 50px 10px;
   }
 
   .examples__slider-slide {
